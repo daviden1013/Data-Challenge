@@ -1,5 +1,6 @@
 # Data-Challenge
-My code and explanations on the challenge.
+My code and explanations on the challenge. 
+The complete code is available in bingo.py
 
 ## Evaluation
 We first develop the class "Game" based on the rules to evaluate the Bingo charts. For a given chart, when Game.play() is called, it returns the average number of dice rolls it takes a reach a Bingo out of n trials. For example:
@@ -79,5 +80,3 @@ np.min([i[0] for i in loss])
 ```
 The average loss is 13.2 with minimum 8.4. 
 This means rolling 8 to 9 times can give a Bingo!
-
-## My complete code is available in bingo.py
